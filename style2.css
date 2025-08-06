@@ -1,0 +1,42 @@
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+
+}
+body{
+    justify-content:center;
+    display: flex;
+    background-color: aqua;
+}
+.box{
+    border-radius:140px;
+    margin: 50px;
+    padding: 30px;
+    background-color: black;
+    box-shadow: 1px 2px 50px black;
+    
+   
+}
+#red, #green , #yellow {
+    background-color: blanchedalmond;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    
+
+}
+#red{
+    background-color:red;
+    box-shadow: 1px 2px 50px rgb(240, 103, 103)
+}
+#green:hover{
+background-color: green;
+box-shadow: 1px 2px 50px rgb(17, 239, 47);
+}
+#yellow{
+    background-color:yellow ;
+    box-shadow: 1px 2px 50px rgb(185, 221, 41);
+}
+
+
+ 
